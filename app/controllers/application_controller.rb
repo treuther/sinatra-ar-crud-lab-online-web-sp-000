@@ -45,7 +45,7 @@ class ApplicationController < Sinatra::Base
   end
 
 #---------- UPDATE ----------#
-  get '/articles/:id/edit' do
+  patch '/articles/:id/edit' do
 
     erb :edit
   end
