@@ -46,4 +46,6 @@ class ApplicationController < Sinatra::Base
 
     erb :edit
   end
+
+#---------- DELETE ----------#
 end
