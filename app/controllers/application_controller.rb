@@ -25,7 +25,7 @@ class ApplicationController < Sinatra::Base
     @article.save
     @articles = Article.all
 
-    erb :show
+    redirect to :'/articles/show'
   end
 
 #---------- READ ----------#
