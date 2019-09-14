@@ -25,7 +25,8 @@ class ApplicationController < Sinatra::Base
     @article.save
     @articles = Article.all
 
-    redirect to "/articles/#{@article.id}"
+    erb :index
+    # redirect to "/articles/#{@article.id}"
   end
 
 #---------- READ ----------#
