@@ -34,7 +34,7 @@ class ApplicationController < Sinatra::Base
 #---------- READ ----------#
   # get '/articles' do
   #   @articles = Article.all
-  # 
+  #
   #   erb :index
   # end
 
